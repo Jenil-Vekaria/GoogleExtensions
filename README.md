@@ -1,6 +1,10 @@
 # GoogleExtensions
 
 #### Google Extension 1: Clipboard History
+* Copy texts and it will automatically get saved
+* You can quickly access the copied text 
+* Functionalities: Favourite, Download, Ability to delete the unwanted text
+
 #### Google Extension 2: Rate My Professor (coming soon)
 
 ## How To Install:
