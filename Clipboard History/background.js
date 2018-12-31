@@ -65,6 +65,4 @@ function updateEntry()
     cookie = "Entry" + "="+ window.totalEntries + "ž" + document.cookie.substring(startFrom)+"ž";
     cookie = cookie.replace(/ž+/g,"ž");
     document.cookie = cookie;
-
-    console.log(cookie);
 }
