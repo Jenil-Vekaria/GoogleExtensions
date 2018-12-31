@@ -1,7 +1,6 @@
 window.totalEntries = 0;
 var page = chrome.extension.getBackgroundPage();
 window.onload = function(){  
-    console.log(document.cookie);
 
     //Get background page
     window.totalEntries = totalEntry();
@@ -23,7 +22,6 @@ window.onload = function(){
 
                 appendNewBar(x,value,key);
           }
-            console.log("Key=" + key);
         }
     }
 
@@ -327,9 +325,6 @@ function deleteInfo(id){
         cookie = cookie.replace(oldEntryValue, newEntryValue);
 
         document.cookie = cookie;
-
-        console.log("Replace("+oldEntryValue+","+newEntryValue+")");
-        console.log(cookie);
         location.reload();
     }
 }
