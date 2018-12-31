@@ -26,7 +26,6 @@ function PressedKey(e){
         //Send the text to the background
         if(window.sendText.length > 0){
             chrome.runtime.sendMessage(window.sendText);
-            console.log("Sending: " + window.sendText);
         }
     }
 }
