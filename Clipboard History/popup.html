@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Pop Up</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="popup.js"></script>
+</head>
+<body>
+    <h1>Clipboard</h1>
+
+    <div class="nav">
+        <ul>
+            <img src="http://icons.iconarchive.com/icons/icons8/ios7/256/Very-Basic-Paper-Clip-icon.png">   
+            <li data-toggle="tooltip" data-placement="top" title="Tooltip on top"><a href="#" id="home"><i class="large material-icons iconDownload">home</i>Home</a></li>
+            <li data-toggle="tooltip" data-placement="top" title="Tooltip on top"><a href="#" id="download"><i class="large material-icons iconDownload">save_alt</i>Download</a></li>
+            <li data-toggle="tooltip" data-placement="top" title="Tooltip on top"><a href="#" id="clear"><i class="large material-icons IconClear_Fav">delete</i>Clear</a></li>
+            <li data-toggle="tooltip" data-placement="top" title="Tooltip on top"><a href="#" id="favourite"><i class="large material-icons IconClear_Fav">star</i>Favourite</a></li>
+        </ul>
+    </div>
+
+    <div class="Empty">
+        <h5 id="mssg1">Your home is currently empty☹️</h5>
+        <h6 id="mssg2">Copy something to see it here </h6>
+    </div>
+
+    
+    <div id="all"></div> 
+    <div id="fav"></div> 
+</body>
+</html>
+
+<!--<div class="singleData">
+            <button type="button" value="Info2" class="btn btn-success btn-sm">copy</button>
+            <input type="text" id="Info2" value="Empty" readonly></input>
+            <button type="button" class="btn btn-danger btn-sm">X</button><br>
+        </div>-->
