@@ -1,4 +1,4 @@
-# GoogleExtensions
+# Google Extensions
 
 #### Google Extension 1: Clipboard History
 * Copy texts and it will automatically get saved
