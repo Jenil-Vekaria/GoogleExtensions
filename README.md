@@ -13,6 +13,6 @@
 2. Open "chrome://extensions/" 
 3. Enable the "Developer Mode", located on the top right
 4. Click on "Load Unpacked"
-5. Select the file you've download
+5. Select the file you've download(In this case it would be Clipboard History)
 
 #### Note: Refresh the browser once all the steps have been done
